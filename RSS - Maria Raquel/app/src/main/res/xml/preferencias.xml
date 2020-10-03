@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@+id/pref_screen">
+
+    <EditTextPreference
+        android:title="@string/rss_link"
+        android:key="linkxml"
+        android:dialogTitle="Alterar link RSS"
+        android:dialogMessage="Digite um link xml"
+        android:positiveButtonText="Salvar"
+        android:negativeButtonText="Cancelar"/>
+
+</PreferenceScreen>
